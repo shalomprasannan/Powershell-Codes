@@ -1,0 +1,2 @@
+& "C:\Program Files (x86)\Nutanix Inc\NutanixCmdlets\powershell\import_modules\ImportModules.PS1"
+Connect-NTNXCluster -Server prismctl01.m1.local -UserName admin -AcceptInvalidSSLCerts -ForcedConnection -WarningAction SilentlyContinue
